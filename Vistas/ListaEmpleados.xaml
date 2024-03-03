@@ -4,6 +4,8 @@
              x:Class="Ejercicio2_4.Vistas.ListaEmpleados"
              Title="Lista de Videos"
              BackgroundColor="White">
+
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar Registro"
                   x:Name="toolmenu"
@@ -16,7 +18,7 @@
         <StackLayout>
             <ListView x:Name="listapersonas" 
                    ItemTapped="liestapersonas_ItemTapped"
-                   Margin="10,10,0,0" >
+                   Margin="10,10,10,0" >
 
                 <ListView.ItemTemplate>
                     <DataTemplate>

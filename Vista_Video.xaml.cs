@@ -7,4 +7,6 @@ public partial class Vista_Video : ContentPage
 		InitializeComponent();
 
 	}
+
+   
 }

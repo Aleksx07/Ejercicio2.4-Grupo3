@@ -19,6 +19,8 @@ namespace Ejercicio2_4
         {
             InitializeComponent();
 
+            NavigationPage.SetHasNavigationBar(this, false);
+
         }
 
         private async void btnFoto_Clicked(object sender, EventArgs e)
